@@ -446,6 +446,18 @@ a:hover {
   position: relative;
 }
 
+.avatar-img {
+  width: 260px;
+  height: 320px;
+  border-radius: var(--radius-xl);
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
 .avatar-placeholder {
   width: 220px;
   height: 220px;
@@ -1185,6 +1197,11 @@ a:hover {
     width: 160px;
     height: 160px;
     font-size: 3rem;
+  }
+
+  .avatar-img {
+    width: 220px;
+    height: 280px;
   }
 
   .education-grid {
